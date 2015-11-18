@@ -1,0 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               5square
+tagline:             no idea
+url:                 http://5square.github.io/
+paginate:            1
+baseurl:             "www.5square.de"
+
+# About/contact
+author:
+  name:              Jan Burkl
+  url:               https://www.5square.de
+  email:             jan@5square.de
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/5square/www.5square.de
