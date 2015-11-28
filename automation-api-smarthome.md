@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 5square | Automation // API // Smart Home
+redirect_from: "/"
 ---
 
 <p class="message">
