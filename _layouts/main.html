@@ -53,48 +53,7 @@
 
             <header data-scroll-index="0">
               <!-- HOME FULLSCREEN -->
-              <div id="home" class="home-fullscreen" data-100="opacity:1" data-500="opacity:0.5">
-
-                <div class="home-bg-container" style="background: url(/img/home-bg.jpg) bottom center;"></div>
-
-                <div class="overlay">
-                  <div class="home-content">
-                    <!-- INFO BAR -->
-
-                    <!-- HOME TEXT -->
-                    <div class="home-text" data-0="top: 0%; opacity: 1" data-500="top: 50%; opacity: 0.1">
-                      <div id="home-slider" class="flexslider">
-                        <ul class="slides">
-                          <li>
-                            <span class="home-text-header">My driving force</span>
-                            <span class="big-text">Automation</span>
-                          </li>
-                          <li>
-                            <span class="home-text-header">My zeal</span>
-                            <span class="big-text">API's - REST</span>
-                          </li>
-                          <li>
-                            <span class="home-text-header">My passion</span>
-                            <span class="big-text">Smart Home</span>
-                          </li>
-                        </ul>
-                      </div> 
-                      <div class="small-text"> 
-                        JavaScript &middot; PHP &middot; Java                  
-                      </div>
-                    </div>
-                    <!-- HOME TEXT End -->
-
-                    <!-- HOME READ MORE BUTTON -->
-                    <div class="home-more">
-                      <a href="#" class="btn btn-primary" data-scroll-nav="1">read more</a>
-                    </div>
-                    <!-- HOME READ MORE BUTTON End -->
-
-                  </div>
-
-                </div>
-              </div>
+              {% include home.html %}
               <!-- HOME FULLSCREEN End -->
 
               <!-- NAVBAR -->
