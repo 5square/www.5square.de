@@ -2,14 +2,14 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+#relative_permalinks: true
 
 # Setup
 title:               5square
 tagline:             no idea
 url:                 http://5square.github.io/
 paginate:            1
-baseurl:             "www.5square.de"
+baseurl:             "/"
 
 # About/contact
 author:
@@ -19,8 +19,10 @@ author:
 
 # Custom vars
 version:             2.0.0
-github:
-  repo:              https://github.com/5square/www.5square.de
+#github:
+#  repo:              https://github.com/5square/www.5square.de
 
 gems:
-  - jekyll-redirect-from
+#  - jekyll-redirect-from
+  - jekyll-paginate
+  - jekyll-gist

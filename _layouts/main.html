@@ -63,266 +63,28 @@
 
             <!-- ABOUT US SECTION CONTAINER -->
             <section id="aboutus" data-scroll-index="1">
-              <section class="section about-text">
-                <div class="container first-section">
-
-                  <!-- SECTION HEADER -->
-                  <div class="section-header">
-                    <h1>
-                      <span>About</span>
-                    </h1>
-                    <div class="header-desc">
-                      <span>Jan Burkl<br />Solution Consultant // Software Developer</span>
-                    </div>
-                  </div>
-                  <!-- SECTION HEADER End -->
-
-                  <div class="row">
-                    <div class="col-sm-12 resp-no-gap">
-                      <!-- SMALL HEADER CENTERED  -->
-                      <h5 class="small-header sh-center">
-                        <span>Who are we?</span>
-                      </h5>
-                      <!-- SMALL HEADER CENTERED  End -->
-                    </div>
-                  </div>
-
-                  <!-- ABOUT US TEXT SECTION  -->
-                  <div class="row">
-                    <div class="col-sm-6">
-                      <p class="p-big-desc accent-color fadeLeft">A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.</p>
-                      <span>Antoine de Saint-Exupéry</span>
-                    </div>
-                    <div class="col-sm-6">
-                      <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque mattis, leo quam aliquet diam, congue laoreet elit metus eget diam. Proin ac metus diam. In quis scelerisque velit. Proin pellentesque neque ut scelerisque dapibus. Praesent elementum vestibulum ligula, sed dictum enim feugiat dignissim. Pellentesque ut metus feugiat, dictum diam ac, euismod arcu. Nullam vitae diam at lacus auctor consectetur.<br/><br/>Integer risus enim, egestas non justo ut, aliquet varius purus. Suspendisse potenti. Curabitur porttitor, quam vitae porta scelerisque, turpis tellus tincidunt eros, non vehicula est tortor ut lacus. Aenean est diam, viverra sed metus eu, laoreet rutrum magna. Nunc sit amet vestibulum odio. Vivamus et ipsum quis tortor tempor accumsan. </p>
-                    </div>
-                  </div>
-
-                </div>
-              </section>
-              <!-- ABOUT US TEXT SECTION End -->
+              {% include content/about.html %}
             </section>
-            <!-- ABOUT US SECTION CONTAINER End -->
                   
             <!-- TALKS SECTION CONTAINER -->
             <section data-scroll-index="2">
               {% include content/talks.html %}
             </section>
-            <!-- TALKS SECTION CONTAINER End -->
 
+            <!-- SERVICE SECTION CONTAINER -->
+            <section data-scroll-index="3">
             {% include content/publications.html %}
-
-              <!-- DEVICES SECTION -->
-              <section id="devices-section" class="section section-bg-attached" style="">
-
-                <div class="container">
-                  <div class="row bottom-gap">
-                    <div class="col-sm-12">
-                      <ul class="devices-nav">
-                        <li><a href=""><i class="fa fa-desktop"></i>Desktop</a></li>
-                        <li><a href=""><i class="fa fa-tablet"></i>Tablet</a></li>
-                        <li><a href=""><i class="fa fa-mobile"></i>Phone</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="flexslider devices">
-                  <ul class="slides">
-                    <li>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <h2>Morbi blandit lacus sed orci.</h2><br>
-
-                            <!-- ICON BOX -->
-                            <div class="icon-box">
-                              <i class="fa fa-hdd-o fadeLeft"></i>
-                              <div class="icon-box-content">
-                                <h5>Ut semper laoreet risus</h5>
-                                <p>Aliquam justo ligula, volutpat vel fermentum eu, pulvinar id est. Aenean ac pellentesque sem, nec gravida tortor.</p>
-                              </div>
-                            </div>
-                            <!-- ICON BOX End -->
-
-                          </div>
-
-                          <div class="col-sm-8">
-                            <img src="/img/laptop.png" alt="" class="pull-right" style="margin-top: -10px;">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-4">
-                            <h2>Uismod eleifend id vitae erat.</h2><br>
-
-                            <!-- ICON BOX -->
-                            <div class="icon-box">
-                              <i class="fa fa-map-marker fadeLeft"></i>
-                              <div class="icon-box-content">
-                                <h5>Cras gravida sit amet</h5>
-                                <p>Phasellus dapibus, erat et aliquam gravida, nisl dolor condimentum erat, quis auctor eros quam ac elit.</p>
-                              </div>
-                            </div>
-                            <!-- ICON BOX End -->
-
-                          </div>
-
-                          <div class="col-sm-8">
-                            <img src="/img/tablet.png" alt="" class="pull-right" style="margin-top: -10px;">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="container">
-                        <div class="row">
-                          <div class="col-sm-8">
-                            <h2>Mauris metus ipsum, tincidunt quis laoreet non, egestas et magna.</h2><br>
-
-                            <!-- ICON BOX -->
-                            <div class="icon-box">
-                              <i class="fa fa-smile-o fadeLeft"></i>
-                              <div class="icon-box-content">
-                                <h5>Praesent non sem</h5>
-                                <p>Nam sagittis felis et justo dapibus, eget congue felis venenatis.</p>
-                              </div>
-                            </div>
-                            <!-- ICON BOX End -->
-
-                          </div>
-
-                          <div class="col-sm-4">
-                            <img src="/img/phone.png" alt="" class="pull-right" style="margin-top: -10px;">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-
-              </section>
-              <!-- DEVICES SECTION End -->
-
-              <!-- TESTIMONIALS SECTION -->
-              <section class="section section-inverse section-bg-overlay section-bg-attached" style="background: url(http://placehold.it/500&text=fullscreen-img)">
-                <div class="container">
-
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <!-- SMALL HEADER CENTERED  -->
-                      <h5 class="small-header sh-center bottom-gap">
-                        <span>Testimonials</span>
-                      </h5>
-                      <!-- SMALL HEADER CENTERED  End -->
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="flexslider testimonials-slider">
-                        <ul class="slides">
-                          <li>
-                            <div class="testimonial">
-                              <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin mattis tincidunt. Vivamus ac porttitor tellus. Morbi eu tincidunt orci.</p>
-                                <small>
-                                  <img class="author-avatar" src="http://placehold.it/100x100" alt="">
-                                  John Smith
-                                  <span class="occupation">CEO of Smiths inc.</span>
-                                </small>
-                              </blockquote>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="testimonial">
-                              <blockquote>
-                                <p>Maecenas feugiat magna tempus lacus imperdiet, eget pharetra lorem fringilla. Proin dui velit, consectetur in dictum id, volutpat et risus. Curabitur pellentesque, ante vel luctus ultrices, massa nibh condimentum metus, ut iaculis arcu velit a odio.</p>
-                                <small>
-                                  <img class="author-avatar" src="http://placehold.it/100x100" alt="">
-                                  Dwayne Carl
-                                  <span class="occupation">CEO of CARL inc.</span>
-                                </small>
-                              </blockquote>
-                            </div>
-                          </li>
-                          <li>
-                            <div class="testimonial">
-                              <blockquote>
-                                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque nec arcu odio. Cras mattis a enim eu sodales</p>
-                                <small>
-                                  <img class="author-avatar" src="http://placehold.it/100x100" alt="">
-                                  Matthias Gergely
-                                  <span class="occupation">CEO of Lalita</span>
-                                </small>
-                              </blockquote>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </section>
-              <!-- TESTIMONIALS SECTION End -->
-
             </section>
-            <!-- SERVICE SECTION CONTAINER End -->
-           
+
+            <!-- SOFTWARE SECTION -->
+            <section data-scroll-index="4">
+              {% include content/software.html %}
+            </section>
+              
             <!-- CONTACT SECTION CONTAINER -->
             <section data-scroll-index="5">
-              <!-- TWITTER SECTION -->
-              <section class="section section-inverse section-bg-overlay section-bg-attached" style="background: url(http://placehold.it/500&text=fullscreen-img)">
-                <div class="container">
-
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <!-- SMALL HEADER CENTERED  -->
-                      <h5 class="small-header sh-center bottom-gap">
-                        <span>Latest tweets &mdash; @envato</span>
-                      </h5>
-                      <!-- SMALL HEADER CENTERED  End -->
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-sm-12">
-                      <div class="flexslider tweet">
-                        <ul class="tweet_list">
-                          <li>
-                            <span class="tweet_text">Vestibulum posuere euismod nunc vel sodales. Duis placerat eros et lorem viverra, ac molestie turpis rhoncus.</span>
-                            <span class="tweet_time">about an hour ago</span>
-                          </li>
-                          <li>
-                            <span class="tweet_text">Vestibulum posuere euismod nunc vel sodales. Duis placerat eros et lorem viverra, ac molestie turpis rhoncus.</span>
-                            <span class="tweet_time">about an hour ago</span>
-                          </li>
-                          <li>
-                            <span class="tweet_text">Vestibulum posuere euismod nunc vel sodales. Duis placerat eros et lorem viverra, ac molestie turpis rhoncus.</span>
-                            <span class="tweet_time">about an hour ago</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </section>
-              <!-- TWITTER SECTION End -->
-
-            </section>
-            <!-- LATEST POSTS SECTION CONTAINER End -->
-
-            <!-- CONTACT SECTION CONTAINER -->
-            <section data-scroll-index="5">
-
-              <!-- CONTACT SECTION -->
               {% include content/contact.html %}
-              <!-- CONTACT SECTION End -->
+            </section>
 
             <footer>
               <div class="back-to-top"><a href="" class="btn btn-primary" data-scroll-goto="0">Back to top</a></div>

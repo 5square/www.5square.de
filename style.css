@@ -258,7 +258,7 @@ header { background: #191919; }
 /* STORY */
 #story { background: url(img/story-bg.jpg); }
 
-#devices-section { background: url(img/devices-bg.jpg); }
+#devices-section { background: url(img/software.jpg); }
 
 /* TEAM */
 .team-member-big, .team-member-small { width: 100%; position: relative; text-align: center; }
@@ -287,12 +287,12 @@ header { background: #191919; }
 .devices-nav { list-style: none; margin: 0; padding: 0; *zoom: 1; }
 .devices-nav:after { content: ""; display: table; clear: both; }
 .devices-nav li { float: left; width: 33%; text-align: center; }
-.devices-nav li a { font: 14px "Montserrat", sans-serif; text-transform: uppercase; text-decoration: none; }
-.devices-nav li a i { font-size: 36px; display: block; width: 60px; margin: 0 auto 10px; height: 60px; padding: 12px 0px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; border: 2px solid #191919; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
-.devices-nav li a:hover i { border: 2px solid #666666; }
-.devices-nav .flex-active a { color: #6dbe4b; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
-.devices-nav .flex-active a i, .devices-nav .flex-active a:hover i { color: #6dbe4b; border: 2px solid #6dbe4b; }
-
+.devices-nav li a { color: #ECECEC; font: 14px "Montserrat", sans-serif; text-transform: uppercase; text-decoration: none; }
+.devices-nav li a i { font-size: 36px; display: block; width: 60px; margin: 0 auto 10px; height: 60px; padding: 12px 0px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; border: 2px solid #ECECEC; color: #ECECEC; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+.devices-nav li a:hover i { border: 2px solid #6dbe4b; }
+.devices-nav .flex-active a { color: #ffffff; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+.devices-nav .flex-active a i, .devices-nav .flex-active a:hover i { color: #ffffff; border: 2px solid #ffffff; }
+#6dbe4b
 /* PORTFOLIO */
 #portfolio-section { padding-bottom: 0; }
 
@@ -488,7 +488,7 @@ footer .copyrights { display: block; margin-top: 10px; }
 
 /* SHORTCODES */
 /* SOCIAL ICONS */
-.social-icons a { color: white; text-decoration: none; width: 35px; height: 35px; background: #cccccc; padding: 12px; display: inline-block; margin: 0 3px 6px 0; }
+.social-icons a { color: white; text-decoration: none; width: 55px; height: 55px; background: #cccccc; padding: 12px; display: inline-block; margin: 0 3px 6px 0; font-size: 35px;}
 .social-icons a:hover { color: #FFF !important; }
 
 .social-icons .fa-facebook:hover { background: #3B5998 !important; }
@@ -506,6 +506,7 @@ footer .copyrights { display: block; margin-top: 10px; }
 .social-icons .fa-skype:hover { background: #00AFF0 !important; }
 .social-icons .fa-instagram:hover { background: #517fa4 !important; }
 .social-icons .fa-tumblr:hover { background: #00225F !important; }
+.social-icons .fa-xing:hover { background: #419277 !important; }
 
 /* BUTTONS */
 .btn { font-family: "Montserrat", sans-serif; color: white; text-shadow: none; background-color: #6dbe4b; background-image: none; border: none; *background-color: #6dbe4b; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; text-transform: uppercase; font-size: 13px; margin-bottom: 3px; text-decoration: none; }
@@ -839,3 +840,8 @@ html[xmlns] .tweet_list { display: block; }
 .gist-file {margin-bottom: 0px !important; border: 0px !important;}
 .si-date{float:none !important;}
 .si-date::after, .si-date::before {content: '' !important;}
+div.devices h2, div.devices h5, div.devices .icon-box{color: #ffffff}
+.print-post-format .post-header::before { content: "\f02d"; }
+.online-post-format .post-header::before { content: "\f0ac"; }
+.conference-post-format .post-header::before { content: "\f075"; }
+.webinar-post-format .post-header::before { content: "\f108"; }

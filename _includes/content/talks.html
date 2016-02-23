@@ -10,6 +10,7 @@
                     <div class="header-desc">
                       <span>Conferences &middot; Webinars</span>
                     </div>
+
                   </div>
                   <!-- SECTION HEADER End -->
 
@@ -36,45 +37,21 @@
                       <div class="story">
                         <div class="timeline"></div>
 
+                        {% for post in site.posts %}
+                        {% if post.categories contains 'conference' %}
+                        {% if post.tags contains 'startpage' %}
                         <div class="story-item">
-                          <div class="story-item-content fadeRight">
+                          <div class="story-item-content fade{{ post.fade | capitalize }}">
                             <div class="story-item-wrap">
                               <div class="line-arrow"></div>
-                              <span class="si-year">2015-11</span>
-                              <script src="https://gist.github.com/janatzend/c94c0327a31b5d50af83.js?file=2015 - php.ruhr - PHAST and PHURIOUS 7.md"></script>
+                              <span class="si-year">{{ post.date | date: '%Y-%m' }}</span>
+                              {{ post.content }}
                             </div>
                           </div>
                         </div>
-
-                        <div class="story-item">
-                          <div class="story-item-content fadeLeft">
-                            <div class="story-item-wrap">
-                              <div class="line-arrow"></div>
-                              <span class="si-year">2015-11</span>
-                              <script src="https://gist.github.com/janatzend/c94c0327a31b5d50af83.js?file=2015 - php.ruhr - ZEND FRAMEWORK 3.md"></script>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="story-item">
-                          <div class="story-item-content fadeRight">
-                            <div class="story-item-wrap">
-                              <div class="line-arrow"></div>
-                              <span class="si-year">2015-10</span>
-                              <script src="https://gist.github.com/janatzend/c94c0327a31b5d50af83.js?file=2015 - ZendCon - Pretty Continuous Delivery - Bamboo and Zend Server.md"></script>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div class="story-item">
-                          <div class="story-item-content fadeLeft">
-                            <div class="story-item-wrap">
-                              <div class="line-arrow"></div>
-                              <span class="si-year">2015-10</span>
-                              <script src="https://gist.github.com/janatzend/c94c0327a31b5d50af83.js?file=2015 - ZendCon - Control your home with PHP.md"></script>
-                            </div>
-                          </div>
-                        </div>
+                        {% endif %}
+                        {% endif %}
+                        {% endfor %}
 
                       </div>  
                     </div>
@@ -94,61 +71,38 @@
                       <span>Webinars</span>
                     </h1>
                     <div class="header-desc">
-                      <span>Eget mi tincidunt, lobortis sem eu, vestibulum lorem.</span>
+                      <span>Speaking to the Cloud.</span>
                     </div>
                   </div>
                   <!-- SECTION HEADER End -->
 
                   <div class="row bottom-gap">
+                    
+                    {% for post in site.posts %}
+                    {% if post.categories contains 'webinar' %}
+                    {% if post.tags contains 'startpage' %}
                     <div class="col-sm-4">
 
                       <!-- LATEST POST ITEM -->
                       <div class="latest-post-item fadeBottom">
-                        <a href="blog-post.html"><img src="/img/bamboo.jpg" alt=""></a>
-                        <h4>Building Continuous Delivery with Bamboo and Zend Server</h4>
-                        <span class="post-info">July 2nd, 2015</span>
-                        <p>In this webinar Jan Burkl will demonstrate how you can package a PHP application 
-                        in Atlassian Bamboo, and deploy it on test, staging and production system running 
-                        Zend Server. As monitoring is an important part of a Continuous Delivery process, 
-                        you can also learn how to get Zend Server Monitoring data back into your CI system.</p>
+                        <img src="{{ post.thumb }}" alt="">
+                        <h4>{{ post.title }}</h4>
+                        <span class="post-info">{{ post.date | date_to_string }}</span>
+                        <p>{{ post.content }}</p>
                         <!--div class="read-more-btn"><a href="#" class="btn btn-link">Read more</a></div-->
                       </div>
                       <!-- LATEST POST ITEM End -->
 
                     </div>
-                    
-                    <div class="col-sm-4">
-
-                      <!-- LATEST POST ITEM -->
-                      <div class="latest-post-item fadeBottom" fade-delay="400">
-                        <a href="blog-post.html"><img src="http://placehold.it/400x300" alt=""></a>
-                        <h4><a href="blog-post.html">Sed tristique co nunc.</a></h4>
-                        <span class="post-info">by Adrian Lampart &middot; 1 day ago &middot; 10 min read</span>
-                        <p>Eget mi tincidunt, lobortis sem eu, vestibulum lorem. Mauris semper convallis enim, eu semper justo laoreet eget. Sed tristique consequat nunc, at vulputate est consequat a...</p>
-                        <div class="read-more-btn"><a href="#" class="btn btn-link">Read more</a></div>
-                      </div>
-                      <!-- LATEST POST ITEM End -->
-
-                    </div>
-                    
-                    <div class="col-sm-4">
-
-                      <!-- LATEST POST ITEM -->
-                      <div class="latest-post-item fadeBottom" fade-delay="800">
-                       <h4><a href="blog-post.html">Integer quis justo eu nisl tempus rutrum vitae id felis.</a></h4>
-                        <span class="post-info">by Adrian Lampart &middot; 3 day ago &middot; 8 min read</span>
-                        <p>Pellentesque sollicitudin, velit eu aliquet ultricies, orci dui malesuada nunc, in posuere ipsum tellus in nisl. In eu mattis eros, nec interdum orci. Suspendisse vulputate nisl et semper hendrerit...</p>
-                        <div class="read-more-btn"><a href="#" class="btn btn-link">Read more</a></div>
-                      </div>
-                      <!-- LATEST POST ITEM End -->
-
-                    </div>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
                   </div>
 
                   <div class="row">
                     <div class="col-sm-12 resp-no-gap">
                       <div class="goto-blog">
-                        <a class="btn btn-primary" href=""blog-sidebar.html"#">Webinar archive</a>
+                        <a class="btn btn-primary" href="/webinar/">Webinar archive</a>
                       </div>
                     </div>
                   </div>
