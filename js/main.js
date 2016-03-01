@@ -97,14 +97,6 @@
 		});
 	};
 
-	// Counting
-	function counting() {
-		$('.count-item').waypoint(function() {
-	    	$('.counter').countTo();
-	    	$('.counter').removeClass('counter');
-		}, { offset: '90%' })
-	};
-
 	// Fixed navbar
 	function fixedNavbar() {
 		var navbar = $("#navbar")
@@ -347,22 +339,6 @@
 		
 	};
 
-	function fitVid() {
-		$(".fit-vid").fitVids();
-	};
-
-	function twitter() {
-	$('.tweet').tweet({
-		modpath: 'js/twitter/',
-		username: 'envato',
-		join_text: null,
-		avatar_size: null,
-		count: 3,
-		loading_text: 'loading twitter feed...',
-		template: "{text}{time}"
-	});
-	};
-
 	function homeBgPlayer() {
       $(".home-bg-player").mb_YTPlayer();
     };
@@ -370,7 +346,6 @@
 
 	//Function Initializing
 	homeHeight();
-	counting();
 	fixedNavbar();
 	scrollToNavbar();
 	contactFormValid();
@@ -379,7 +354,6 @@
 	projectLoad();
 	hideOnScroll();
 	animations();
-	fitVid();
 	navBarf();
 	homeBgPlayer();
 
