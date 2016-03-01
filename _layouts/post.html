@@ -1,27 +1,145 @@
----
-layout: default
----
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 
-<article class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <time datetime="{{ page.date | date_to_xmlschema }}" class="post-date">{{ page.date | date_to_string }}</time>
-  {{ content }}
-</article>
+{% include structure/head.html %}
 
-{% if site.related_posts != empty %}
-<aside class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
-  </ul>
-</aside>
-{% endif %}
+    <body>
+
+    {% include structure/loader.html %}
+
+    <div id="st-container" class="st-container">
+
+    {% include structure/navigation.html %}
+    <!-- SIDEBAR / RESPONSIVE NAVIGATION End -->
+
+      <!-- content push wrapper -->
+      <div class="st-pusher">  
+
+        <div class="st-content"><!-- this is the wrapper for the content -->
+          <div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+
+            <header id="page-header" data-0="opacity:1" data-300="opacity:0.3" data-scroll-index="0">
+              <div class="container">
+
+                <div class="page-nav">
+                    <a class="btn-back-home" href="/">Back to home</a>
+                </div>
+
+                <!-- SECTION HEADER -->
+                <div class="page-title section-header sh-left">
+                  <h1>
+                    {{page.title}}
+                  </h1>
+                </div>
+                <!-- SECTION HEADER End -->
+
+              </div>
+            </header>
+
+            <!-- PAGE CONTENT -->
+            <section class="page-content">
+              <div class="page-bg"></div>
+
+              <section class="section">
+                <div class="container">
+
+
+
+                  <div class="row bottom-gap"></div>
+                  
+                  <div class="row">
+
+                    <div class="col-sm-12 col-md-2"></div>
+                    <!-- POSTS CONTAINER -->
+                    <div class="col-sm-12 col-md-6">
+<!-- SERVICE ITEM -->
+                      <div style="opacity: 1; left: 0px;" class="service fadeLeft">
+                        <div class="service-icon">
+                          {% if page.categories contains 'print' %}<i class="fa fa-book"></i>{% endif %}
+                          {% if page.categories contains 'online' %}<i class="fa globe"></i>{% endif %}
+                          {% if page.categories contains 'conference' %}<i class="fa fa-comment"></i>{% endif %}
+                          {% if page.categories contains 'webinar' %}<i class="fa fa-desktop"></i>{% endif %}
+                        </div>
+                        <div class="service-header">
+                           {% if page.categories contains 'print' %}<h2><span>Print Publication</span></h2>{% endif %}
+                           {% if page.categories contains 'online' %}<h2><span>Online Publication</span></h2>{% endif %}
+                           {% if page.categories contains 'conference' %}<h2><span>Conference</span></h2>{% endif %}
+                           {% if page.categories contains 'webinar' %}<h2><span>Webinar</span></h2>{% endif %}
+                        </div>
+                        <div class="service-desc">
+                           {{ content }} 
+                        </div>{{ page.date | date_to_string }}</div>
+                      </div>
+                      <!-- SERVICE ITEM End -->
+                    <!-- POSTS CONTAINER end -->
+
+                    <div class="col-sm-12 col-md-1"></div>
+                    
+                    <!-- SIDEBAR CONTAINER -->
+                    <div class="col-sm-12 col-md-3 sidebar">
+                      
+                      <!-- CATEGORIES WIDGET -->
+                      <div class="widget widget-categories">
+                        <h5 class="small-header">
+                          <span>Categories</span>
+                        </h5>
+                        
+                        <ul class="tag-box inline">
+						{% assign tags_list = site.categories %}  
+					      {% for tag in tags_list %} 
+                          {% if tag[0] != 'print' %}
+                          {% if tag[0] != 'online' %}
+							<li><a href="/{{ tag[0] }}/">{{ tag[0] | capitalize }} ({{ tag[1].size }})</a></li>
+						  {% endif %}
+                          {% endif %}
+                          {% endfor %}
+						{% assign tags_list = nil %}
+						</ul>
+
+                      </div>  
+                      <!-- CATEGORIES WIDGET End -->
+                  
+                      <!-- POPULAR POSTS WIDGET -->
+                      <div class="widget widget-popular">
+                        <h5 class="small-header">
+                          <span>Popular</span>
+                        </h5>
+                        
+                        <ul>
+							{% for post in site.posts %}
+                            {% if post.tags contains 'popular' %}
+                            <li>
+                              <h6><a href="{{ post.url }}">{{ post.title }}</a></h6>
+                              <span class="post-info">{{ post.date | date_to_string }}</span>
+                            </li>
+                            {% endif %}
+                            {% endfor %}
+                        </ul>
+                        
+                      </div>  
+                      <!-- POPULAR POSTS WIDGET End -->
+
+                    </div>
+                    <!-- SIDEBAR CONTAINER End -->
+                  </div>
+
+                </div>
+              </section>
+
+            </section>
+            <!-- PAGE CONTENT End -->
+
+            {% include structure/footer.html %}
+
+          </div><!-- /st-content-inner -->
+        </div><!-- /st-content -->
+      </div><!-- /st-pusher -->
+    </div><!-- /st-container -->
+    
+    {% include structure/js.html %}
+
+    </body>
+</html>
