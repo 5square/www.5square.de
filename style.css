@@ -845,3 +845,8 @@ div.devices h2, div.devices h5, div.devices .icon-box{color: #ffffff}
 .online-post-format .post-header::before { content: "\f0ac"; }
 .conference-post-format .post-header::before { content: "\f075"; }
 .webinar-post-format .post-header::before { content: "\f108"; }
+.story-item:nth-child(odd) .story-item-content .si-year-cv { right: -160px; }
+.story-item:nth-child(odd) .story-item-content .si-year { right: -90px; }
+.story-item:nth-child(odd) .story-item-content .si-year::after { right: 70px; }
+.story-item:nth-child(even) .story-item-content .si-year { left: -90px; }
+.story-item:nth-child(even) .story-item-content .si-year::after { left: 70px; }
