@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wolken bewegen sich, PHP Magazin
+title: Wolken bewegen sich, PHP Magazin 2013.1
 tags: 
 urlext: 
 author: Jan Burkl
