@@ -849,7 +849,7 @@ div.devices h2, div.devices h5, div.devices .icon-box{color: #ffffff}
 .story-item:nth-child(odd) .story-item-content .si-year::after { right: 70px; }
 .story-item:nth-child(even) .story-item-content .si-year { left: -90px; }
 .story-item:nth-child(even) .story-item-content .si-year::after { left: 70px; }
-.story-item:nth-child(odd) .story-item-content .si-year-cv { right: -190px; }
-.story-item:nth-child(odd) .story-item-content .si-year-cv::after { right: 100px; }
+.story-item:nth-child(odd) .story-item-content .si-year-cv { right: -280px; text-align:left; width: 250px; }
+.story-item:nth-child(odd) .story-item-content .si-year-cv::after { right: 256px; }
 .story-item:nth-child(even) .story-item-content .si-year-cv { left: -210px; }
 .story-item:nth-child(even) .story-item-content .si-year-cv::after { left: 100px; }
