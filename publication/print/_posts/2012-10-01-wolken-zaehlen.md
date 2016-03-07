@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wolken zählen, PHP Magazin
+title: Wolken zählen, PHP Magazin 2012.5
 tags: 
 urlext: 
 author: Jan Burkl
