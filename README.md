@@ -1,3 +1,3 @@
 # 5square.de
-## Automation - API's - Home Automation
+## Automation - API's - Smart Home
 [RUN](http://5square.de)
