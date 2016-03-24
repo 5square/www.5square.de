@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Z-Ray: Raychlich Infos
+title: "Z-Ray: Raychlich Infos"
 tags: startpage
 urlext: https://entwickler.de/online/z-ray-raychlich-infos-140896.html
 author: Jan Burkl
