@@ -853,7 +853,7 @@ div.devices h2, div.devices h5, div.devices .icon-box{color: #ffffff}
 .story-item:nth-child(odd) .story-item-content .si-year-cv::after { right: 256px; }
 .story-item:nth-child(even) .story-item-content .si-year-cv { left: -280px; text-align:right; width: 250px; }
 .story-item:nth-child(even) .story-item-content .si-year-cv::after { left: 257px; }
-
+.story-item:nth-child(odd) .story-item-content-cv { text-align: left; }
 article.post-container h1 {
     font: 14px "Montserrat",sans-serif !important;
     text-transform: uppercase !important;
@@ -861,3 +861,4 @@ article.post-container h1 {
 	margin-bottom: 16px;
 	padding-bottom: 0.3em;
 }
+

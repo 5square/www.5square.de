@@ -125,6 +125,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-gist
+  jekyll-redirect-from
   kramdown
 
 BUNDLED WITH
