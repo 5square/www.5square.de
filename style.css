@@ -861,4 +861,5 @@ article.post-container h1 {
 	margin-bottom: 16px;
 	padding-bottom: 0.3em;
 }
+.icon-box-content a, .icon-box-content a.hover, .icon-box-content a.focus, .icon-box-content a.active { color: white; }
 
