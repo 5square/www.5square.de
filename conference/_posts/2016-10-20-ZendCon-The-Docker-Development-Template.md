@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Developer Week 2017, Nuremberg, Germany
-tags: startpage
+title: ZendCon 2016, Las Vegas, Nevada
 fade: right
 ---
-{% gist a29cc1fc5ef2b0cebb880fdb04a285fa 2017-DeveloperWeek-The-Docker-development-template.md %}
+{% gist ad65c4e41fb2907c8dd068798c370c3d 2016-ZendCon-The-Docker-development-template.md %}
