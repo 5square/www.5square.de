@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PHP Performance auf Windows: Zwischen Mythos und Realität
+title: PHP Performance auf Windows - Zwischen Mythos und Realität
 tags: 
 thumb: 
 ---
