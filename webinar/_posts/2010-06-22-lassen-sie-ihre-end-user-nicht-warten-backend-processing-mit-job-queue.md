@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Lassen Sie Ihre End-User nicht warten: Backend Processing mit Job Queue
+title: Lassen Sie Ihre End-User nicht warten - Backend Processing mit Job Queue
 tags: 
 thumb: 
 ---
