@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Code Tracing mit Zend Server 5: Ein Flugschreiber für Ihre PHP Applikation!
+title: Code Tracing mit Zend Server 5 - Ein Flugschreiber für Ihre PHP Applikation!
 tags: 
 thumb: 
 ---
