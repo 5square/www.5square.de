@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Troubleshooting PHP Issues: Gute (und schlechte) Techniken
+title: Troubleshooting PHP Issues - Gute (und schlechte) Techniken
 tags: 
 thumb: 
 ---
