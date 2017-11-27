@@ -9,4 +9,4 @@ Jan Burkl, systems engineer and overall PHP wizard walked through what it takes 
 ### When it comes to security, think big
 Big picture that is. Jan advises to think in many directions – not just one specific area. PHP applications are more than just applications, they include the entire stack, from OS to database and servers. So, for security, he says, “Take a broader look at security, it’s not just one thing or another, It’s everything.” Start with the key pillars, application and stack. This encompasses the community, internal and customer-driven security policies, custom code, skillsets, QA tools, and ongoing support.
 
-http://blog.zend.com/2017/09/28/webinar-recap-ongoing-management-of-your-php-7-application/#.Whwb47SdVhE
+[blog.zend.com](http://blog.zend.com/2017/09/28/webinar-recap-ongoing-management-of-your-php-7-application/#.Whwb47SdVhE)
