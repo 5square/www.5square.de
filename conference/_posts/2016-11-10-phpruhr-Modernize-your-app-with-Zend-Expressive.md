@@ -1,6 +1,7 @@
 ---
 layout: post
-title: ZendCon 2016, Las Vegas, Nevada
+title: php.ruhr 2016, Dortmund, Germany
+tags: startpage
 fade: right
 ---
 # Modernize your app with Zend Expressive
@@ -13,4 +14,4 @@ See in this session best practices on how to bridge your legacy system - like a 
 
 - See more at: http://www.zendcon.com/speaker-sessions#node-418
 
-Slides: [online](https://5square.github.io/talks/2016/2016-10-20-ZendCon-Modernize-your-app-with-Zend-Expressive/Modernize_your_app_with_Zend_Expressive.html) | [pdf](https://5square.github.io/talks/2016/2016-10-20-ZendCon-Modernize-your-app-with-Zend-Expressive/Modernize_your_app_with_Zend_Expressive.pdf)
+Slides: [online](https://5square.github.io/talks/2016/2016-11-10-phpruhr-Modernize-your-app-with-Zend-Expressive/Modernize_your_app_with_Zend_Expressive.html) | [pdf](https://5square.github.io/talks/2016/2016-11-10-phpruhr-Modernize-your-app-with-Zend-Expressive/Modernize_your_app_with_Zend_Expressive.pdf)
