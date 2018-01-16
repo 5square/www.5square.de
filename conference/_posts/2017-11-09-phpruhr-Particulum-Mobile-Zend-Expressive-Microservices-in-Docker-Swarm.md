@@ -4,4 +4,9 @@ title: php.ruhr 2017, Dortmund, Germany
 fade: right
 tags: startpage
 ---
-{% gist a29cc1fc5ef2b0cebb880fdb04a285fa 2017-11-09-php_ruhr_2017_Particulum_Mobile_Zend_Expressive_Microservices_in_Docker_Swarm.md %}
+# Particulum Mobile: Zend Expressive Micro Services in Docker Swarm
+
+What's the benefit of Micro Services? They are easy to maintain, easy to link and easy to scale. Theoretically.
+The tiny sample app "Particulum Mobile" gives us an introduction into the power, flexibility and simplicity of Zend Expressive as the basis for Micro Services. Let's talk in this session about a straightforward process to deploy the Zend Expressive part - and a HTML/JS frontend - to a Docker Swarm and see how it scales!
+
+Slides: [online](https://5square.github.io/talks/2017/2017-11-09-phpruhr-Particulum-Mobile-Zend-Expressive-Microservices-in-Docker-Swarm) | [PDF](https://5square.github.io/talks/2017/2017-11-09-phpruhr-Particulum-Mobile-Zend-Expressive-Microservices-in-Docker-Swarm/Particulum_Mobile_Zend_Expressive_Microservices_in_Docker_Swarm.pdf)
