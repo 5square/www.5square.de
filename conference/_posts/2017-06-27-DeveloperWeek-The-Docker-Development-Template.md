@@ -3,12 +3,10 @@ layout: post
 title: Developer Week 2017, Nuremberg, Germany
 fade: right
 ---
-# The Docker development template for PHP
-Everybody is using Docker. Pull an image in minutes and start multiple containers in seconds. Great!
+# The Docker development template
+Viele nutzen Docker. Ein Image in Minuten ziehen und verschiedene Container innerhalb von Sekunden starten, großartig! Unglücklicherweise sind öffentliche Container normalerweise nicht sofort Einsatzbereit in einem individuellen Entwicklungssystem. Eventuell fehlt der Debugger, der Vhost ist nicht korrekt konfiguriert oder irgendwas, das zur Entwicklung benötigt wird muss noch installiert werden.
 
-Unfortunately the public containers are normally not ready for an immediate use as a custom development system: Maybe the debugger is missing, the vhost is not configured correctly, or something app-specific has to be installed first.
-
-In this session, I will show how to build your own custom system based on a Docker-compose template. This includes also the automatic setup of connections to other systems like DB servers or a load balancer to start a scalable cluster. And the best: The whole system configuration can be simply stored in a version control system, so that the Docker development template is available for all developers on the team.
+In diesem Vortrag wird gezeigt wie Du ein individuelles System basierend auf Docker-Compose-Templates erstellen kannst. Dies beinhaltet auch die automatische Konfiguration der Verbindungen zu anderen Komponenten wie etwa Datenbankservern oder Load Balancern um gleich ein skalierbares Cluster zu erstellen. Und das Beste: Die gesamte Systemkonfiguration kann einfach in einem Versionierungssystem gespeichert werden. Dadurch ist das Docker Entwicklungstemplate für alle Teammitglieder verfügbar.
 
 Slides: [online](http://5square.github.io/talks/2017/2017-06-27-Developer-Week-The-Docker-Development-Template/The_Docker_Development_Template.html) | [pdf](http://5square.github.io/talks/2017/2017-06-27-Developer-Week-The-Docker-Development-Template/The_Docker_Development_Template.pdf)
 
