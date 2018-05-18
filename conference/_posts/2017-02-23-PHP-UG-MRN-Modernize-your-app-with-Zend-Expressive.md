@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PHP UG MRN, Mannheim, Germany
-tags: startpage
+tags: 
 fade: right
 ---
 # Modernize your app with Zend Expressive
