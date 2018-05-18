@@ -1,7 +1,7 @@
 ---
 layout: post
 title: php.ruhr 2016, Dortmund, Germany
-tags: startpage
+tags:
 fade: right
 ---
 # Modernize your app with Zend Expressive
