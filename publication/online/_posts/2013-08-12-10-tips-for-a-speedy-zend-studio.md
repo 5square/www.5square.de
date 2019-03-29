@@ -2,7 +2,7 @@
 layout: post
 title: 10 Tips for a Speedy Zend Studio
 tags: startpage
-urlext: http://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/
+urlext: https://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/
 author: Jan Burkl
 collapse: in
 ---

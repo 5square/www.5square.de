@@ -12,4 +12,4 @@ But there's one thing most of them have in common at a certain point in time: Fo
 
 See in this session best practices on how to bridge your legacy system - like a ZF1 or Symfony 1 application - to Expressive and move it to the next level.
 
-Slides: [online](http://5square.github.io/talks/2017/2017-02-23-PHPUG-MRN-Modernize-your-app-with-Zend-Expressive/Modernize_your_app_with_Zend_Expressive.html)
+Slides: [online](https://5square.github.io/talks/2017/2017-02-23-PHPUG-MRN-Modernize-your-app-with-Zend-Expressive/Modernize_your_app_with_Zend_Expressive.html)
