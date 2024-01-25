@@ -1,3 +1,5 @@
 _site
 /.project
 /.settings/
+.jekyll-cache/**
+**/.DS_Store
