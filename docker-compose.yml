@@ -1,7 +1,16 @@
-jekyll:
-  image: jekyll/jekyll
-  volumes:
-    - '.:/srv/jekyll'
-  ports:
-    - 4000:4000
-  command: /bin/bash -c "bundle exec jekyll serve"
+services:
+  jekyll:
+#    image: jekyll/jekyll
+    build: .
+    environment:
+      JEKYLL_UID: 501
+      JEKYLL_GID: 20
+    volumes:
+      - .:/srv/jekyll
+#      - ./vendor/bundle/:/usr/local/bundle
+#    ports:
+#      - "4000:4000"
+    network_mode: "host"
+#    command: jekyll serve --trace --incremental
+#    command: jekyll build --watch --incremental
+    command: jekyll serve --watch --force_polling --verbose --livereload --incremental
