@@ -2,7 +2,7 @@
 layout: post
 title: Die Evolution der Infrastruktur
 tags: startpage
-urlext: https://entwickler.de/online/php-magazin-3-12-ist-da-php-in-der-cloud-133397.html
+urlext:
 author: Nils Langner et al.
 meta: "ISBN: 978-3-86802-088-5"
 ---
