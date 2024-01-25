@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Ongoing management of your PHP 7 application
+title: Ongoing management of your PHP 7 application!
 tags: popular, startpage
-thumb: /img/ongoingmanagement.jpg
+thumb: https://res.cloudinary.com/dae2e9af4/image/upload/v1705963695/5square.de/ongoingmanagement_essjpr.jpg
 ---
 Jan Burkl, systems engineer and overall PHP wizard walked through what it takes to manage PHP applications. Taking the day-to-day viewpoint, Jan dissected each area into its many parts.
 
